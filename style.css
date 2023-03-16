@@ -134,3 +134,41 @@ button.sign-up {
     text-align: right;
     margin-right: 100px;
 }
+.section4 {
+    display: flex;
+    margin: 150px 350px;
+    padding: 50px 200px;
+    justify-content: space-between;
+    background-color: #3882f6;
+    border-radius: 16px;
+}
+
+.section4 .text {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.section4 .action {
+    font-size: 24px;
+    color: #ffffff;
+    font-weight: 700;
+}
+
+.section4 button {
+    background-color: #3882f6;
+    color: #f9faf8;
+    font-size: 18px;
+    padding: 8px 48px;
+    border-radius: 8px;
+    border-color: white;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1f2937;
+    font-size: 24px;
+    padding:50px;
+    color: #e5e7eb;
+}
