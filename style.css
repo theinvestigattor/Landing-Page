@@ -11,7 +11,7 @@ body {
 .header {
     display: flex;
     justify-content: space-between;
-    padding: 20px 150px 150px;
+    padding: 20px 100px 100px;
 }
 
 .logo {
@@ -41,13 +41,13 @@ a:hover {
 }
 
 .section1 .content img {
-    width: 900px;
+    width: 650px;
     height: auto;
 }
 
 .section1 .content {
     display: flex;
-    padding: 0px 150px 150px;
+    padding: 0px 100px 100px;
     justify-content: space-between;
     align-items: center;
     font-size: 18px;
@@ -84,13 +84,13 @@ button.sign-up {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 50px 150px 150px;
+    padding: 50px 100px 100px;
 }
 
 .section2 .container {
     display: flex;
     justify-content: center;
-    gap: 150px;
+    gap: 70px;
 
   }
 
@@ -118,7 +118,7 @@ button.sign-up {
 .section3 {
     display: flex;
     flex-direction: column;
-    padding: 150px 500px;
+    padding: 150px;
     background-color: #e5e7eb;
     font-size: 36px;
     color: #1f2937;
@@ -137,8 +137,10 @@ button.sign-up {
 .section4 {
     display: flex;
     margin: 150px 350px;
-    padding: 50px 200px;
+    padding: 30px 60px;
     justify-content: space-between;
+    align-items: center;
+    gap: 24px;
     background-color: #3882f6;
     border-radius: 16px;
 }
@@ -146,6 +148,7 @@ button.sign-up {
 .section4 .text {
     font-size: 18px;
     color: #e5e7eb;
+    min-width: 130px;
 }
 
 .section4 .action {
@@ -158,9 +161,11 @@ button.sign-up {
     background-color: #3882f6;
     color: #f9faf8;
     font-size: 18px;
-    padding: 8px 48px;
+    padding: 8px 32px;
     border-radius: 8px;
     border-color: white;
+    max-height: 48px;
+    min-width: 130px;
 }
 
 .footer {
